@@ -2,7 +2,7 @@
 import React from 'react';
 
 // Views
-import Draggable from '../../../../src/index';
+import Draggable from '../../../../src/Draggable';
 import WindowTitle from './WindowTitle';
 import WindowContent from './WindowContent';
 
