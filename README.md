@@ -1,5 +1,5 @@
 # Draggable
-Draggable - javascript (ReactJs) library for draggable windows.
+Javascript (ReactJs) library for draggable windows.
 
 ## Installation
 
