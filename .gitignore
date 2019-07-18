@@ -1,0 +1,6 @@
+.git/
+build/contracts/*
+node_modules/
+dist/build.js
+dist/images/
+.env

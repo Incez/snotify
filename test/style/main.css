@@ -1,0 +1,22 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+.line-light {
+    width: 100%;
+    height: 1px;
+    border-bottom: 1px solid lightgray;
+    margin: 10px 0;
+}
+
+#open-modal-btn {
+    margin: 20px;
+}
+
+footer {
+    position: absolute;
+    width: 100%;
+    bottom: 5px;
+    text-align: center;
+}
