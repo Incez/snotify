@@ -20,6 +20,7 @@ import Draggable from 'Draggable';
 ```
 
 \[props]
+  * type { WINDOW_CUSTOM, WINDOW_DEFAULT, WINDOW_DEFAULT_WITH_BUTTON, WINDOW_DRAGGABLE_TOPBAR, WINDOW_DRAGGABLE_TOPBAR_WITH_BUTTON } : window types
   * id { string } : id of draggable window, e.g. "my-id"
   * className { string }: class of draggable window, e.g. "my-class"
   * style { object }: css styles for draggable window, e.g. { color: "#fff" }
