@@ -91,13 +91,18 @@ class Draggable extends Component {
     initialPos = () => {
         let x = 0, y = 0;
 
+        let element = document.getElementById(this.props.id);
+
         // Check if initPos was defined.
         if(!this.props.initPos) {
             if($(window).width() > 768) {
-                // Get window width, height.
-                x = $(window).width() / 3;
-                y = ($(window).height() / 3) - 190;
+                // Get window width, height (center).
+                x = ($(window).width() / 2) - (element.clientWidth / 2)
+                y = ($(window).height() / 2) - (element.clientHeight / 2)
             }
+        } else {
+            x = this.props.initPos.x;
+            y = this.props.initPos.y;
         }
 
         // Set start position.

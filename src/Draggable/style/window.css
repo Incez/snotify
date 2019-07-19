@@ -1,4 +1,4 @@
-#draggable-window {
+.draggable-window {
     position: fixed;
     width: 450px;
     height: 400px;
@@ -13,16 +13,8 @@
     animation: zoom-in-animation 0.2s ease-in-out;
 }
 
-#draggable-window-top {
+#draggable-window-topbar {
     width: 100%;
-}
-
-#draggable-window-content {
-    padding: 20px;
-}
-
-#draggable-window-content a {
-    text-decoration: none;
 }
 
 #draggable-window-title {
@@ -30,12 +22,6 @@
     padding-top: 15px;
     padding-bottom: 10px;
     text-align: center;
-}
-
-#draggable-window-close-btn {
-    position: absolute;
-    top: 10px;
-    right: 10px;
 }
 
 @keyframes zoom-in-animation {
