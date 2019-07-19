@@ -24,7 +24,7 @@ import Draggable from 'Draggable';
   * id { string } : id of draggable window, e.g. "my-id"
   * className { string }: class of draggable window, e.g. "my-class"
   * style { object }: css styles for draggable window, e.g. { color: "#fff" }
-  * initPos { object }: window initial position, e.g. { x: 0, y: 0 }
+  * initPos { object }: window initial position (If you don't specify initPos, the Draggable window will appear in the middle of the browser window), e.g. { x: 0, y: 0 }
   * overlay { html tags }: draggable components, this component will emit onMouseDown event, e.g. \<div>My draggable window\</div>
 
 ### Develop - tests
