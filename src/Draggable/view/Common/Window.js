@@ -105,7 +105,3 @@ class Window extends Component {
 }
 
 export default Window;
-
-function newFunction() {
-    return "default";
-}
