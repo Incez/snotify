@@ -3,7 +3,9 @@ import React from 'react';
 
 const Footer = (props) => {
     return(
-        <footer>Copyrights &copy;{ new Date().getFullYear() } voidstuff</footer>
+        <footer>
+            Copyrights &copy;{ new Date().getFullYear() } <a href="https://github.com/mrowski">Marcin Romanowski</a>
+        </footer>
     );
 }
 
