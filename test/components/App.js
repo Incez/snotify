@@ -55,7 +55,7 @@ class App extends Component {
                     <div className="window-content">Window with topbar</div>
                 </Draggable>
                 <Draggable type={ WINDOW_DRAGGABLE_TOPBAR_WITH_BUTTON } title="Custom title"
-                    initPos={ { x: 1035, y: 100 } } style={ styles.size }>
+                    initPos={ { x: 1020, y: 100 } } style={ styles.size }>
                     <div className="window-content">Window with topbar and close button</div>
                 </Draggable>
                 <Draggable type={ WINDOW_CUSTOM } title="Custom title" initPos={ { x: 15, y: 380 } }
