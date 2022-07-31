@@ -10,11 +10,11 @@ import {
     WINDOW_DEFAULT_WITH_BUTTON,
     WINDOW_DRAGGABLE_TOPBAR,
     WINDOW_DRAGGABLE_TOPBAR_WITH_BUTTON
-} from '../../src/Draggable';
+} from '../../src';
 
 // Style
-import 'bootstrap/dist/css/bootstrap.css';
-import '../style/main.css';
+import 'bootstrap';
+import '../assets/css/main.css';
 
 const styles = {
     position: {

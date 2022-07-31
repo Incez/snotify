@@ -16,7 +16,12 @@ import {
 } from '../../index';
 
 // Style
-import '../../style/window.css';
+import 'bootstrap';
+import '@fortawesome/fontawesome-free/js/fontawesome';
+import '@fortawesome/fontawesome-free/js/solid';
+import '@fortawesome/fontawesome-free/js/regular';
+import '@fortawesome/fontawesome-free/js/brands';
+import '../../assets/css/window.css';
 
 class Window extends Component {
     constructor(props) {

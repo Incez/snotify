@@ -5,7 +5,7 @@ import React from 'react';
 import CloseButton from './CloseButton';
 
 // Styles
-import '../../style/common.css';
+import '../../assets/css/common.css';
 
 const TopBar = (props) => {
     return(
